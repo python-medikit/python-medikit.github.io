@@ -40,6 +40,14 @@
       - docker-shell
   maturity: 3
 
+- name: kube
+  description: Kubernetes deployment support
+  artifacts:
+    targets:
+      - kube-rollout
+      - kube-rollback
+  maturity: 5
+
 - name: python
   description: Python 3.5+ package using setuptools
   artifacts:
