@@ -110,6 +110,14 @@
       - format
     reqs_dev:
       - yapf
+  maturity: 10
+
+- name: format
+  requires: []
+  description: Code formatting, using various tools ("black" and "isort" are the default)
+  artifacts:
+    targets:
+      - format
   maturity: 1
 
 - name: nodejs

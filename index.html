@@ -232,7 +232,9 @@ python.setup(
                     {% elsif feature.maturity == 5 %}
                     Dev
                     {% elsif feature.maturity == 10 %}
-                    Outdated
+                    Deprecated
+                    {% elsif feature.maturity == 11 %}
+                    Removed
                     {% else %}
                     ???
                     {% endif %}
